@@ -97,6 +97,7 @@
 			attributes = {
 				LastSwiftUpdateCheck = 1220;
 				LastUpgradeCheck = 1220;
+				ORGANIZATIONNAME = CodeMonk;
 				TargetAttributes = {
 					2B48802025D225DD00F09F5A = {
 						CreatedOnToolsVersion = 12.2;
