@@ -3,23 +3,39 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		116EBF1B5503C15644F40A90 /* Pods_AtomicHabit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C746AEAC5A2D01B6DBD23F6F /* Pods_AtomicHabit.framework */; };
+		2B1E416125D6D79F0098B5EC /* HabitDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B1E416025D6D79F0098B5EC /* HabitDetailView.swift */; };
+		2B297F6F25D388D6009B9874 /* HabitEditViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B297F6E25D388D6009B9874 /* HabitEditViewModel.swift */; };
+		2B297F7425D38BB5009B9874 /* HabitScheduleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B297F7325D38BB5009B9874 /* HabitScheduleView.swift */; };
 		2B48802525D225DD00F09F5A /* AtomicHabitApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B48802425D225DD00F09F5A /* AtomicHabitApp.swift */; };
 		2B48802725D225DD00F09F5A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B48802625D225DD00F09F5A /* ContentView.swift */; };
 		2B48802925D225DD00F09F5A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B48802825D225DD00F09F5A /* Assets.xcassets */; };
 		2B48802C25D225DD00F09F5A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B48802B25D225DD00F09F5A /* Preview Assets.xcassets */; };
+		2B84C68A25D2513F00A6D1C9 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2B84C68925D2513F00A6D1C9 /* GoogleService-Info.plist */; };
+		2B84C69025D2584700A6D1C9 /* Habit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B84C68F25D2584700A6D1C9 /* Habit.swift */; };
+		2B84C69625D25C2600A6D1C9 /* HabitViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B84C69525D25C2600A6D1C9 /* HabitViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2B1E416025D6D79F0098B5EC /* HabitDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitDetailView.swift; sourceTree = "<group>"; };
+		2B297F6E25D388D6009B9874 /* HabitEditViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitEditViewModel.swift; sourceTree = "<group>"; };
+		2B297F7325D38BB5009B9874 /* HabitScheduleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitScheduleView.swift; sourceTree = "<group>"; };
 		2B48802125D225DD00F09F5A /* AtomicHabit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AtomicHabit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B48802425D225DD00F09F5A /* AtomicHabitApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AtomicHabitApp.swift; sourceTree = "<group>"; };
 		2B48802625D225DD00F09F5A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		2B48802825D225DD00F09F5A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2B48802B25D225DD00F09F5A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		2B48802D25D225DD00F09F5A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2B84C68925D2513F00A6D1C9 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		2B84C68F25D2584700A6D1C9 /* Habit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Habit.swift; sourceTree = "<group>"; };
+		2B84C69525D25C2600A6D1C9 /* HabitViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitViewModel.swift; sourceTree = "<group>"; };
+		55C67902E9EE679024C556BC /* Pods-AtomicHabit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AtomicHabit.debug.xcconfig"; path = "Target Support Files/Pods-AtomicHabit/Pods-AtomicHabit.debug.xcconfig"; sourceTree = "<group>"; };
+		C746AEAC5A2D01B6DBD23F6F /* Pods_AtomicHabit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AtomicHabit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D12F5EDF9D05EF2EE43C58C8 /* Pods-AtomicHabit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AtomicHabit.release.xcconfig"; path = "Target Support Files/Pods-AtomicHabit/Pods-AtomicHabit.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -27,6 +43,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				116EBF1B5503C15644F40A90 /* Pods_AtomicHabit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -38,6 +55,8 @@
 			children = (
 				2B48802325D225DD00F09F5A /* AtomicHabit */,
 				2B48802225D225DD00F09F5A /* Products */,
+				ADF63A004F58D3AF2195C783 /* Pods */,
+				BAB8A3A9F48316B4C3C0CDE0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -52,8 +71,11 @@
 		2B48802325D225DD00F09F5A /* AtomicHabit */ = {
 			isa = PBXGroup;
 			children = (
-				2B48802425D225DD00F09F5A /* AtomicHabitApp.swift */,
-				2B48802625D225DD00F09F5A /* ContentView.swift */,
+				2B84C69325D258E900A6D1C9 /* App */,
+				2B84C68E25D257F800A6D1C9 /* Models */,
+				2B84C68D25D257F000A6D1C9 /* ViewModels */,
+				2B84C68C25D257E000A6D1C9 /* Views */,
+				2B84C68925D2513F00A6D1C9 /* GoogleService-Info.plist */,
 				2B48802825D225DD00F09F5A /* Assets.xcassets */,
 				2B48802D25D225DD00F09F5A /* Info.plist */,
 				2B48802A25D225DD00F09F5A /* Preview Content */,
@@ -69,6 +91,58 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		2B84C68C25D257E000A6D1C9 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				2B48802625D225DD00F09F5A /* ContentView.swift */,
+				2B297F7325D38BB5009B9874 /* HabitScheduleView.swift */,
+				2B1E416025D6D79F0098B5EC /* HabitDetailView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		2B84C68D25D257F000A6D1C9 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				2B84C69525D25C2600A6D1C9 /* HabitViewModel.swift */,
+				2B297F6E25D388D6009B9874 /* HabitEditViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		2B84C68E25D257F800A6D1C9 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				2B84C68F25D2584700A6D1C9 /* Habit.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		2B84C69325D258E900A6D1C9 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				2B48802425D225DD00F09F5A /* AtomicHabitApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		ADF63A004F58D3AF2195C783 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				55C67902E9EE679024C556BC /* Pods-AtomicHabit.debug.xcconfig */,
+				D12F5EDF9D05EF2EE43C58C8 /* Pods-AtomicHabit.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		BAB8A3A9F48316B4C3C0CDE0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C746AEAC5A2D01B6DBD23F6F /* Pods_AtomicHabit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -76,9 +150,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2B48803025D225DD00F09F5A /* Build configuration list for PBXNativeTarget "AtomicHabit" */;
 			buildPhases = (
+				A31425FCD010FC3DAD97AE63 /* [CP] Check Pods Manifest.lock */,
 				2B48801D25D225DD00F09F5A /* Sources */,
 				2B48801E25D225DD00F09F5A /* Frameworks */,
 				2B48801F25D225DD00F09F5A /* Resources */,
+				24CFF8A5C2BC539DC1C92AA3 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -129,17 +205,65 @@
 			files = (
 				2B48802C25D225DD00F09F5A /* Preview Assets.xcassets in Resources */,
 				2B48802925D225DD00F09F5A /* Assets.xcassets in Resources */,
+				2B84C68A25D2513F00A6D1C9 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		24CFF8A5C2BC539DC1C92AA3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AtomicHabit/Pods-AtomicHabit-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AtomicHabit/Pods-AtomicHabit-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AtomicHabit/Pods-AtomicHabit-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A31425FCD010FC3DAD97AE63 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AtomicHabit-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		2B48801D25D225DD00F09F5A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2B1E416125D6D79F0098B5EC /* HabitDetailView.swift in Sources */,
 				2B48802725D225DD00F09F5A /* ContentView.swift in Sources */,
+				2B297F7425D38BB5009B9874 /* HabitScheduleView.swift in Sources */,
+				2B84C69625D25C2600A6D1C9 /* HabitViewModel.swift in Sources */,
+				2B297F6F25D388D6009B9874 /* HabitEditViewModel.swift in Sources */,
+				2B84C69025D2584700A6D1C9 /* Habit.swift in Sources */,
 				2B48802525D225DD00F09F5A /* AtomicHabitApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -265,6 +389,7 @@
 		};
 		2B48803125D225DD00F09F5A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 55C67902E9EE679024C556BC /* Pods-AtomicHabit.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -287,6 +412,7 @@
 		};
 		2B48803225D225DD00F09F5A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D12F5EDF9D05EF2EE43C58C8 /* Pods-AtomicHabit.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
