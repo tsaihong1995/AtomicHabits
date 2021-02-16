@@ -1,19 +1,18 @@
 //
-//  HabitEditView.swift
+//  AtomicHabitEditView.swift
 //  AtomicHabit
 //
-//  Created by Hung-Chun Tsai on 2021-02-09.
+//  Created by Hung-Chun Tsai on 2021-02-13.
 //  Copyright © 2021 CodeMonk. All rights reserved.
 //
 
 import SwiftUI
 
-struct HabitScheduleView: View {
+struct AtomicHabitEditView: View {
     
-    // MARK: - PROPERTIES
-    
-    @StateObject var viewModel = HabitEditViewModel()
     @Environment(\.presentationMode) var presentationMode
+    @StateObject var viewModel = AtomicHabitViewModel()
+    @State var numberFormatter: String = "1"
     
     var body: some View {
         NavigationView {
@@ -22,9 +21,15 @@ struct HabitScheduleView: View {
                     TextField("Name your Habit", text: $viewModel.habit.title)
                 }
                 Section(header: Text("How many time?")) {
-                    TextField("Enter a number", value: $viewModel.habit.goalCount, formatter: NumberFormatter())
+                    TextField("Total time", text: $numberFormatter)
+                        .keyboardType(UIKeyboardType.phonePad) // Show keyboard for phone numbers
+                        .textFieldStyle(RoundedBorderTextFieldStyle())
+                        .padding(.horizontal)
+                    //Handle the Charater
+
+                    // (5)
                 }
-                Section(header: Text("How many time?")) {
+                Section(header: Text("Give some description")) {
                     TextField("Write some words to motivate yourself!", text: $viewModel.habit.description)
                 }
             }
@@ -40,11 +45,16 @@ struct HabitScheduleView: View {
             )
         }
     }
-    
     func CancelHasTapped() {
         dismiss()
     }
+    
+    func recordUserNumberInput(){
+        viewModel.habit.goalCount = Int(numberFormatter) ?? 1
+    }
+    
     func DoneHasTapped() {
+        recordUserNumberInput()
         viewModel.save()
         dismiss()
     }
@@ -53,8 +63,8 @@ struct HabitScheduleView: View {
     }
 }
 
-struct HabitEditView_Previews: PreviewProvider {
+struct AtomicHabitEditView_Previews: PreviewProvider {
     static var previews: some View {
-        HabitScheduleView()
+        AtomicHabitEditView()
     }
 }

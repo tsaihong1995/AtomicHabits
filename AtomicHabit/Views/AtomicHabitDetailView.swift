@@ -1,22 +1,20 @@
 //
-//  HabitDetailView.swift
+//  AtomicHabitDetailView.swift
 //  AtomicHabit
 //
-//  Created by Hung-Chun Tsai on 2021-02-12.
+//  Created by Hung-Chun Tsai on 2021-02-13.
 //  Copyright © 2021 CodeMonk. All rights reserved.
 //
 
 import SwiftUI
 
-struct HabitDetailView: View {
+struct AtomicHabitDetailView: View {
     
-    @State var habit: Habit
-    @StateObject private var editViewModel = HabitEditViewModel()
+    @State var habit: AtomicHabit
+    @StateObject var habitViewModel = AtomicHabitViewModel()
     @Environment(\.presentationMode) var presentationMode
     
-    
     var body: some View {
-        
         VStack(alignment: .leading) {
             Text(habit.id ?? "1")
             Text(habit.title)
@@ -49,25 +47,24 @@ struct HabitDetailView: View {
             })
         }
     }
-
-    func DoneHasTapped(_ habit: Habit) {
-        editViewModel.updateHabit(habit)
+    
+    func DoneHasTapped(_ habit: AtomicHabit) {
+        habitViewModel.updateHabit(habit)
         dismiss()
     }
     
-    func DeleteHasTapped(_ habit: Habit) {
-        editViewModel.deleteHabit(habit)
+    func DeleteHasTapped(_ habit: AtomicHabit) {
+        habitViewModel.removeHabit(habit)
         dismiss()
     }
  
     func dismiss() {
         presentationMode.wrappedValue.dismiss()
     }
-    
 }
 
-struct HabitDetailView_Previews: PreviewProvider {
+struct AtomicHabitDetailView_Previews: PreviewProvider {
     static var previews: some View {
-        HabitDetailView(habit: mockData[0])
+        AtomicHabitDetailView(habit: mockData2[1])
     }
 }

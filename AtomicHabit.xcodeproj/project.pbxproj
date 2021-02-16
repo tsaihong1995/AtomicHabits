@@ -8,31 +8,31 @@
 
 /* Begin PBXBuildFile section */
 		116EBF1B5503C15644F40A90 /* Pods_AtomicHabit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C746AEAC5A2D01B6DBD23F6F /* Pods_AtomicHabit.framework */; };
-		2B1E416125D6D79F0098B5EC /* HabitDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B1E416025D6D79F0098B5EC /* HabitDetailView.swift */; };
-		2B297F6F25D388D6009B9874 /* HabitEditViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B297F6E25D388D6009B9874 /* HabitEditViewModel.swift */; };
-		2B297F7425D38BB5009B9874 /* HabitScheduleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B297F7325D38BB5009B9874 /* HabitScheduleView.swift */; };
 		2B48802525D225DD00F09F5A /* AtomicHabitApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B48802425D225DD00F09F5A /* AtomicHabitApp.swift */; };
-		2B48802725D225DD00F09F5A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B48802625D225DD00F09F5A /* ContentView.swift */; };
 		2B48802925D225DD00F09F5A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B48802825D225DD00F09F5A /* Assets.xcassets */; };
 		2B48802C25D225DD00F09F5A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B48802B25D225DD00F09F5A /* Preview Assets.xcassets */; };
+		2B82DE1225D84FCA008A5F63 /* AtomicHabit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B82DE1125D84FCA008A5F63 /* AtomicHabit.swift */; };
+		2B82DE2C25D853C6008A5F63 /* AtomicHabitViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B82DE2B25D853C6008A5F63 /* AtomicHabitViewModel.swift */; };
+		2B82DE3025D853F7008A5F63 /* AtomicHabitsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B82DE2F25D853F7008A5F63 /* AtomicHabitsViewModel.swift */; };
+		2B82DE3325D8545F008A5F63 /* AtomicHabitListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B82DE3225D8545F008A5F63 /* AtomicHabitListView.swift */; };
+		2B82DE3625D857EE008A5F63 /* AtomicHabitEditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B82DE3525D857EE008A5F63 /* AtomicHabitEditView.swift */; };
+		2B82DE5D25D87E96008A5F63 /* AtomicHabitDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B82DE5C25D87E96008A5F63 /* AtomicHabitDetailView.swift */; };
 		2B84C68A25D2513F00A6D1C9 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2B84C68925D2513F00A6D1C9 /* GoogleService-Info.plist */; };
-		2B84C69025D2584700A6D1C9 /* Habit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B84C68F25D2584700A6D1C9 /* Habit.swift */; };
-		2B84C69625D25C2600A6D1C9 /* HabitViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B84C69525D25C2600A6D1C9 /* HabitViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		2B1E416025D6D79F0098B5EC /* HabitDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitDetailView.swift; sourceTree = "<group>"; };
-		2B297F6E25D388D6009B9874 /* HabitEditViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitEditViewModel.swift; sourceTree = "<group>"; };
-		2B297F7325D38BB5009B9874 /* HabitScheduleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitScheduleView.swift; sourceTree = "<group>"; };
 		2B48802125D225DD00F09F5A /* AtomicHabit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AtomicHabit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B48802425D225DD00F09F5A /* AtomicHabitApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AtomicHabitApp.swift; sourceTree = "<group>"; };
-		2B48802625D225DD00F09F5A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		2B48802825D225DD00F09F5A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2B48802B25D225DD00F09F5A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		2B48802D25D225DD00F09F5A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2B82DE1125D84FCA008A5F63 /* AtomicHabit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AtomicHabit.swift; sourceTree = "<group>"; };
+		2B82DE2B25D853C6008A5F63 /* AtomicHabitViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AtomicHabitViewModel.swift; sourceTree = "<group>"; };
+		2B82DE2F25D853F7008A5F63 /* AtomicHabitsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AtomicHabitsViewModel.swift; sourceTree = "<group>"; };
+		2B82DE3225D8545F008A5F63 /* AtomicHabitListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AtomicHabitListView.swift; sourceTree = "<group>"; };
+		2B82DE3525D857EE008A5F63 /* AtomicHabitEditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AtomicHabitEditView.swift; sourceTree = "<group>"; };
+		2B82DE5C25D87E96008A5F63 /* AtomicHabitDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AtomicHabitDetailView.swift; sourceTree = "<group>"; };
 		2B84C68925D2513F00A6D1C9 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
-		2B84C68F25D2584700A6D1C9 /* Habit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Habit.swift; sourceTree = "<group>"; };
-		2B84C69525D25C2600A6D1C9 /* HabitViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitViewModel.swift; sourceTree = "<group>"; };
 		55C67902E9EE679024C556BC /* Pods-AtomicHabit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AtomicHabit.debug.xcconfig"; path = "Target Support Files/Pods-AtomicHabit/Pods-AtomicHabit.debug.xcconfig"; sourceTree = "<group>"; };
 		C746AEAC5A2D01B6DBD23F6F /* Pods_AtomicHabit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AtomicHabit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D12F5EDF9D05EF2EE43C58C8 /* Pods-AtomicHabit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AtomicHabit.release.xcconfig"; path = "Target Support Files/Pods-AtomicHabit/Pods-AtomicHabit.release.xcconfig"; sourceTree = "<group>"; };
@@ -94,9 +94,9 @@
 		2B84C68C25D257E000A6D1C9 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				2B48802625D225DD00F09F5A /* ContentView.swift */,
-				2B297F7325D38BB5009B9874 /* HabitScheduleView.swift */,
-				2B1E416025D6D79F0098B5EC /* HabitDetailView.swift */,
+				2B82DE5C25D87E96008A5F63 /* AtomicHabitDetailView.swift */,
+				2B82DE3225D8545F008A5F63 /* AtomicHabitListView.swift */,
+				2B82DE3525D857EE008A5F63 /* AtomicHabitEditView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -104,8 +104,8 @@
 		2B84C68D25D257F000A6D1C9 /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
-				2B84C69525D25C2600A6D1C9 /* HabitViewModel.swift */,
-				2B297F6E25D388D6009B9874 /* HabitEditViewModel.swift */,
+				2B82DE2B25D853C6008A5F63 /* AtomicHabitViewModel.swift */,
+				2B82DE2F25D853F7008A5F63 /* AtomicHabitsViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -113,7 +113,7 @@
 		2B84C68E25D257F800A6D1C9 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				2B84C68F25D2584700A6D1C9 /* Habit.swift */,
+				2B82DE1125D84FCA008A5F63 /* AtomicHabit.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -258,12 +258,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2B1E416125D6D79F0098B5EC /* HabitDetailView.swift in Sources */,
-				2B48802725D225DD00F09F5A /* ContentView.swift in Sources */,
-				2B297F7425D38BB5009B9874 /* HabitScheduleView.swift in Sources */,
-				2B84C69625D25C2600A6D1C9 /* HabitViewModel.swift in Sources */,
-				2B297F6F25D388D6009B9874 /* HabitEditViewModel.swift in Sources */,
-				2B84C69025D2584700A6D1C9 /* Habit.swift in Sources */,
+				2B82DE3325D8545F008A5F63 /* AtomicHabitListView.swift in Sources */,
+				2B82DE1225D84FCA008A5F63 /* AtomicHabit.swift in Sources */,
+				2B82DE3625D857EE008A5F63 /* AtomicHabitEditView.swift in Sources */,
+				2B82DE5D25D87E96008A5F63 /* AtomicHabitDetailView.swift in Sources */,
+				2B82DE2C25D853C6008A5F63 /* AtomicHabitViewModel.swift in Sources */,
+				2B82DE3025D853F7008A5F63 /* AtomicHabitsViewModel.swift in Sources */,
 				2B48802525D225DD00F09F5A /* AtomicHabitApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
