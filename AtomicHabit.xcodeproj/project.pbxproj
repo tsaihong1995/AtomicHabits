@@ -8,31 +8,64 @@
 
 /* Begin PBXBuildFile section */
 		116EBF1B5503C15644F40A90 /* Pods_AtomicHabit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C746AEAC5A2D01B6DBD23F6F /* Pods_AtomicHabit.framework */; };
+		2B13DF5525DCF52900987CD9 /* SignInWithAppleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B13DF5425DCF52900987CD9 /* SignInWithAppleView.swift */; };
 		2B48802525D225DD00F09F5A /* AtomicHabitApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B48802425D225DD00F09F5A /* AtomicHabitApp.swift */; };
 		2B48802925D225DD00F09F5A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B48802825D225DD00F09F5A /* Assets.xcassets */; };
 		2B48802C25D225DD00F09F5A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B48802B25D225DD00F09F5A /* Preview Assets.xcassets */; };
-		2B82DE1225D84FCA008A5F63 /* AtomicHabit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B82DE1125D84FCA008A5F63 /* AtomicHabit.swift */; };
-		2B82DE2C25D853C6008A5F63 /* AtomicHabitViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B82DE2B25D853C6008A5F63 /* AtomicHabitViewModel.swift */; };
-		2B82DE3025D853F7008A5F63 /* AtomicHabitsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B82DE2F25D853F7008A5F63 /* AtomicHabitsViewModel.swift */; };
-		2B82DE3325D8545F008A5F63 /* AtomicHabitListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B82DE3225D8545F008A5F63 /* AtomicHabitListView.swift */; };
-		2B82DE3625D857EE008A5F63 /* AtomicHabitEditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B82DE3525D857EE008A5F63 /* AtomicHabitEditView.swift */; };
-		2B82DE5D25D87E96008A5F63 /* AtomicHabitDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B82DE5C25D87E96008A5F63 /* AtomicHabitDetailView.swift */; };
-		2B84C68A25D2513F00A6D1C9 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2B84C68925D2513F00A6D1C9 /* GoogleService-Info.plist */; };
+		2B736EF925DD67A5005CF617 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2B736EF825DD67A5005CF617 /* GoogleService-Info.plist */; };
+		2B736F0225DD8693005CF617 /* FBKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B736EFE25DD8693005CF617 /* FBKeys.swift */; };
+		2B736F0325DD8693005CF617 /* FBFireStoreError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B736EFF25DD8693005CF617 /* FBFireStoreError.swift */; };
+		2B736F0425DD8693005CF617 /* FBFireStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B736F0025DD8693005CF617 /* FBFireStore.swift */; };
+		2B736F0525DD8693005CF617 /* FBUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B736F0125DD8693005CF617 /* FBUser.swift */; };
+		2B736F0925DD86E8005CF617 /* FBAuthError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B736F0725DD86E8005CF617 /* FBAuthError.swift */; };
+		2B736F0A25DD86E8005CF617 /* FBAuth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B736F0825DD86E8005CF617 /* FBAuth.swift */; };
+		2BBDB38325DC4FC700552385 /* Habit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BBDB38225DC4FC700552385 /* Habit.swift */; };
+		2BBDB38625DC50B000552385 /* HabitListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BBDB38525DC50B000552385 /* HabitListView.swift */; };
+		2BBDB38925DC539F00552385 /* HabitCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BBDB38825DC539F00552385 /* HabitCellViewModel.swift */; };
+		2BBDB38C25DC54E600552385 /* HabitListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BBDB38B25DC54E600552385 /* HabitListViewModel.swift */; };
+		2BBDB38F25DC63AA00552385 /* HabitScheduleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BBDB38E25DC63AA00552385 /* HabitScheduleView.swift */; };
+		2BBDB39325DC734600552385 /* HabitRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BBDB39225DC734600552385 /* HabitRepository.swift */; };
+		2BBDB39625DC9B2D00552385 /* HabitDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BBDB39525DC9B2D00552385 /* HabitDetailView.swift */; };
+		2BBDB3AE25DCDB6C00552385 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BBDB3AD25DCDB6C00552385 /* LoginView.swift */; };
+		2BBDB3B125DCDBFD00552385 /* SignInWithEmailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BBDB3B025DCDBFD00552385 /* SignInWithEmailView.swift */; };
+		2BBDB3B425DCDC3D00552385 /* UserViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BBDB3B325DCDC3D00552385 /* UserViewModel.swift */; };
+		2BBDB3B825DCDCBB00552385 /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BBDB3B725DCDCBB00552385 /* SignUpView.swift */; };
+		2BBDB3BC25DCDCE100552385 /* ForgetPasswordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BBDB3BB25DCDCE100552385 /* ForgetPasswordView.swift */; };
+		2BBDB3C125DCDDC200552385 /* UserInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BBDB3C025DCDDC200552385 /* UserInfo.swift */; };
+		2BBDB3C425DCE52200552385 /* Content.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BBDB3C325DCE52200552385 /* Content.swift */; };
+		2BBDB3C725DCE67400552385 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BBDB3C625DCE67400552385 /* HomeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2B13DF5425DCF52900987CD9 /* SignInWithAppleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInWithAppleView.swift; sourceTree = "<group>"; };
 		2B48802125D225DD00F09F5A /* AtomicHabit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AtomicHabit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B48802425D225DD00F09F5A /* AtomicHabitApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AtomicHabitApp.swift; sourceTree = "<group>"; };
 		2B48802825D225DD00F09F5A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2B48802B25D225DD00F09F5A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		2B48802D25D225DD00F09F5A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2B82DE1125D84FCA008A5F63 /* AtomicHabit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AtomicHabit.swift; sourceTree = "<group>"; };
-		2B82DE2B25D853C6008A5F63 /* AtomicHabitViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AtomicHabitViewModel.swift; sourceTree = "<group>"; };
-		2B82DE2F25D853F7008A5F63 /* AtomicHabitsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AtomicHabitsViewModel.swift; sourceTree = "<group>"; };
-		2B82DE3225D8545F008A5F63 /* AtomicHabitListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AtomicHabitListView.swift; sourceTree = "<group>"; };
-		2B82DE3525D857EE008A5F63 /* AtomicHabitEditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AtomicHabitEditView.swift; sourceTree = "<group>"; };
-		2B82DE5C25D87E96008A5F63 /* AtomicHabitDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AtomicHabitDetailView.swift; sourceTree = "<group>"; };
-		2B84C68925D2513F00A6D1C9 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		2B736EF525DCFD45005CF617 /* AtomicHabit.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = AtomicHabit.entitlements; sourceTree = "<group>"; };
+		2B736EF825DD67A5005CF617 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		2B736EFE25DD8693005CF617 /* FBKeys.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FBKeys.swift; sourceTree = "<group>"; };
+		2B736EFF25DD8693005CF617 /* FBFireStoreError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FBFireStoreError.swift; sourceTree = "<group>"; };
+		2B736F0025DD8693005CF617 /* FBFireStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FBFireStore.swift; sourceTree = "<group>"; };
+		2B736F0125DD8693005CF617 /* FBUser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FBUser.swift; sourceTree = "<group>"; };
+		2B736F0725DD86E8005CF617 /* FBAuthError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FBAuthError.swift; sourceTree = "<group>"; };
+		2B736F0825DD86E8005CF617 /* FBAuth.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FBAuth.swift; sourceTree = "<group>"; };
+		2BBDB38225DC4FC700552385 /* Habit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Habit.swift; sourceTree = "<group>"; };
+		2BBDB38525DC50B000552385 /* HabitListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitListView.swift; sourceTree = "<group>"; };
+		2BBDB38825DC539F00552385 /* HabitCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitCellViewModel.swift; sourceTree = "<group>"; };
+		2BBDB38B25DC54E600552385 /* HabitListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitListViewModel.swift; sourceTree = "<group>"; };
+		2BBDB38E25DC63AA00552385 /* HabitScheduleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitScheduleView.swift; sourceTree = "<group>"; };
+		2BBDB39225DC734600552385 /* HabitRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitRepository.swift; sourceTree = "<group>"; };
+		2BBDB39525DC9B2D00552385 /* HabitDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitDetailView.swift; sourceTree = "<group>"; };
+		2BBDB3AD25DCDB6C00552385 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		2BBDB3B025DCDBFD00552385 /* SignInWithEmailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInWithEmailView.swift; sourceTree = "<group>"; };
+		2BBDB3B325DCDC3D00552385 /* UserViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewModel.swift; sourceTree = "<group>"; };
+		2BBDB3B725DCDCBB00552385 /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
+		2BBDB3BB25DCDCE100552385 /* ForgetPasswordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgetPasswordView.swift; sourceTree = "<group>"; };
+		2BBDB3C025DCDDC200552385 /* UserInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfo.swift; sourceTree = "<group>"; };
+		2BBDB3C325DCE52200552385 /* Content.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Content.swift; sourceTree = "<group>"; };
+		2BBDB3C625DCE67400552385 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		55C67902E9EE679024C556BC /* Pods-AtomicHabit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AtomicHabit.debug.xcconfig"; path = "Target Support Files/Pods-AtomicHabit/Pods-AtomicHabit.debug.xcconfig"; sourceTree = "<group>"; };
 		C746AEAC5A2D01B6DBD23F6F /* Pods_AtomicHabit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AtomicHabit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D12F5EDF9D05EF2EE43C58C8 /* Pods-AtomicHabit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AtomicHabit.release.xcconfig"; path = "Target Support Files/Pods-AtomicHabit/Pods-AtomicHabit.release.xcconfig"; sourceTree = "<group>"; };
@@ -53,6 +86,7 @@
 		2B48801825D225DD00F09F5A = {
 			isa = PBXGroup;
 			children = (
+				2B736EF825DD67A5005CF617 /* GoogleService-Info.plist */,
 				2B48802325D225DD00F09F5A /* AtomicHabit */,
 				2B48802225D225DD00F09F5A /* Products */,
 				ADF63A004F58D3AF2195C783 /* Pods */,
@@ -71,13 +105,16 @@
 		2B48802325D225DD00F09F5A /* AtomicHabit */ = {
 			isa = PBXGroup;
 			children = (
+				2B736EF525DCFD45005CF617 /* AtomicHabit.entitlements */,
+				2BBDB39925DCD95E00552385 /* SignInOrSignUp */,
+				2BBDB39125DC733100552385 /* Repositories */,
 				2B84C69325D258E900A6D1C9 /* App */,
 				2B84C68E25D257F800A6D1C9 /* Models */,
 				2B84C68D25D257F000A6D1C9 /* ViewModels */,
 				2B84C68C25D257E000A6D1C9 /* Views */,
-				2B84C68925D2513F00A6D1C9 /* GoogleService-Info.plist */,
 				2B48802825D225DD00F09F5A /* Assets.xcassets */,
 				2B48802D25D225DD00F09F5A /* Info.plist */,
+				2BBDB38E25DC63AA00552385 /* HabitScheduleView.swift */,
 				2B48802A25D225DD00F09F5A /* Preview Content */,
 			);
 			path = AtomicHabit;
@@ -94,9 +131,8 @@
 		2B84C68C25D257E000A6D1C9 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				2B82DE5C25D87E96008A5F63 /* AtomicHabitDetailView.swift */,
-				2B82DE3225D8545F008A5F63 /* AtomicHabitListView.swift */,
-				2B82DE3525D857EE008A5F63 /* AtomicHabitEditView.swift */,
+				2BBDB38525DC50B000552385 /* HabitListView.swift */,
+				2BBDB39525DC9B2D00552385 /* HabitDetailView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -104,8 +140,8 @@
 		2B84C68D25D257F000A6D1C9 /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
-				2B82DE2B25D853C6008A5F63 /* AtomicHabitViewModel.swift */,
-				2B82DE2F25D853F7008A5F63 /* AtomicHabitsViewModel.swift */,
+				2BBDB38825DC539F00552385 /* HabitCellViewModel.swift */,
+				2BBDB38B25DC54E600552385 /* HabitListViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -113,7 +149,7 @@
 		2B84C68E25D257F800A6D1C9 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				2B82DE1125D84FCA008A5F63 /* AtomicHabit.swift */,
+				2BBDB38225DC4FC700552385 /* Habit.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -124,6 +160,60 @@
 				2B48802425D225DD00F09F5A /* AtomicHabitApp.swift */,
 			);
 			path = App;
+			sourceTree = "<group>";
+		};
+		2BBDB39125DC733100552385 /* Repositories */ = {
+			isa = PBXGroup;
+			children = (
+				2BBDB39225DC734600552385 /* HabitRepository.swift */,
+			);
+			path = Repositories;
+			sourceTree = "<group>";
+		};
+		2BBDB39925DCD95E00552385 /* SignInOrSignUp */ = {
+			isa = PBXGroup;
+			children = (
+				2BBDB3C025DCDDC200552385 /* UserInfo.swift */,
+				2BBDB3A525DCDADF00552385 /* Auth */,
+				2BBDB3A425DCDAD300552385 /* Firestore */,
+				2BBDB3A325DCDACA00552385 /* Views */,
+			);
+			path = SignInOrSignUp;
+			sourceTree = "<group>";
+		};
+		2BBDB3A325DCDACA00552385 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				2BBDB3B025DCDBFD00552385 /* SignInWithEmailView.swift */,
+				2BBDB3BB25DCDCE100552385 /* ForgetPasswordView.swift */,
+				2BBDB3AD25DCDB6C00552385 /* LoginView.swift */,
+				2BBDB3C625DCE67400552385 /* HomeView.swift */,
+				2BBDB3B725DCDCBB00552385 /* SignUpView.swift */,
+				2BBDB3C325DCE52200552385 /* Content.swift */,
+				2B13DF5425DCF52900987CD9 /* SignInWithAppleView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		2BBDB3A425DCDAD300552385 /* Firestore */ = {
+			isa = PBXGroup;
+			children = (
+				2B736F0025DD8693005CF617 /* FBFireStore.swift */,
+				2B736EFF25DD8693005CF617 /* FBFireStoreError.swift */,
+				2B736EFE25DD8693005CF617 /* FBKeys.swift */,
+				2B736F0125DD8693005CF617 /* FBUser.swift */,
+			);
+			path = Firestore;
+			sourceTree = "<group>";
+		};
+		2BBDB3A525DCDADF00552385 /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				2B736F0825DD86E8005CF617 /* FBAuth.swift */,
+				2B736F0725DD86E8005CF617 /* FBAuthError.swift */,
+				2BBDB3B325DCDC3D00552385 /* UserViewModel.swift */,
+			);
+			path = Auth;
 			sourceTree = "<group>";
 		};
 		ADF63A004F58D3AF2195C783 /* Pods */ = {
@@ -205,7 +295,7 @@
 			files = (
 				2B48802C25D225DD00F09F5A /* Preview Assets.xcassets in Resources */,
 				2B48802925D225DD00F09F5A /* Assets.xcassets in Resources */,
-				2B84C68A25D2513F00A6D1C9 /* GoogleService-Info.plist in Resources */,
+				2B736EF925DD67A5005CF617 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,13 +348,29 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2B82DE3325D8545F008A5F63 /* AtomicHabitListView.swift in Sources */,
-				2B82DE1225D84FCA008A5F63 /* AtomicHabit.swift in Sources */,
-				2B82DE3625D857EE008A5F63 /* AtomicHabitEditView.swift in Sources */,
-				2B82DE5D25D87E96008A5F63 /* AtomicHabitDetailView.swift in Sources */,
-				2B82DE2C25D853C6008A5F63 /* AtomicHabitViewModel.swift in Sources */,
-				2B82DE3025D853F7008A5F63 /* AtomicHabitsViewModel.swift in Sources */,
+				2BBDB39625DC9B2D00552385 /* HabitDetailView.swift in Sources */,
+				2BBDB3B425DCDC3D00552385 /* UserViewModel.swift in Sources */,
+				2B736F0925DD86E8005CF617 /* FBAuthError.swift in Sources */,
+				2BBDB3BC25DCDCE100552385 /* ForgetPasswordView.swift in Sources */,
+				2B736F0425DD8693005CF617 /* FBFireStore.swift in Sources */,
+				2BBDB38625DC50B000552385 /* HabitListView.swift in Sources */,
+				2B736F0A25DD86E8005CF617 /* FBAuth.swift in Sources */,
+				2BBDB3C425DCE52200552385 /* Content.swift in Sources */,
+				2BBDB38F25DC63AA00552385 /* HabitScheduleView.swift in Sources */,
+				2BBDB3B825DCDCBB00552385 /* SignUpView.swift in Sources */,
+				2BBDB3AE25DCDB6C00552385 /* LoginView.swift in Sources */,
+				2BBDB38325DC4FC700552385 /* Habit.swift in Sources */,
+				2BBDB38C25DC54E600552385 /* HabitListViewModel.swift in Sources */,
+				2BBDB3B125DCDBFD00552385 /* SignInWithEmailView.swift in Sources */,
+				2B736F0525DD8693005CF617 /* FBUser.swift in Sources */,
 				2B48802525D225DD00F09F5A /* AtomicHabitApp.swift in Sources */,
+				2BBDB39325DC734600552385 /* HabitRepository.swift in Sources */,
+				2B736F0325DD8693005CF617 /* FBFireStoreError.swift in Sources */,
+				2BBDB3C725DCE67400552385 /* HomeView.swift in Sources */,
+				2BBDB3C125DCDDC200552385 /* UserInfo.swift in Sources */,
+				2B736F0225DD8693005CF617 /* FBKeys.swift in Sources */,
+				2BBDB38925DC539F00552385 /* HabitCellViewModel.swift in Sources */,
+				2B13DF5525DCF52900987CD9 /* SignInWithAppleView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -393,9 +499,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = AtomicHabit/AtomicHabit.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"AtomicHabit/Preview Content\"";
-				DEVELOPMENT_TEAM = ZLM67YMHBN;
+				DEVELOPMENT_TEAM = 9S84Q43P56;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = AtomicHabit/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -403,8 +511,9 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.HCtsai.AtomicHabit;
+				PRODUCT_BUNDLE_IDENTIFIER = com.CodeMonk.Habit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -416,9 +525,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = AtomicHabit/AtomicHabit.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"AtomicHabit/Preview Content\"";
-				DEVELOPMENT_TEAM = ZLM67YMHBN;
+				DEVELOPMENT_TEAM = 9S84Q43P56;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = AtomicHabit/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -426,8 +537,9 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.HCtsai.AtomicHabit;
+				PRODUCT_BUNDLE_IDENTIFIER = com.CodeMonk.Habit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
