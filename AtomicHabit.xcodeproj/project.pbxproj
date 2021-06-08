@@ -33,6 +33,17 @@
 		2B73AFBA25FFA287008FEBB9 /* ViewRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B73AFB925FFA287008FEBB9 /* ViewRouter.swift */; };
 		2B73AFC225FFA2AF008FEBB9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B73AFC125FFA2AF008FEBB9 /* ContentView.swift */; };
 		2B73AFC725FFA6CE008FEBB9 /* SettingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B73AFC625FFA6CE008FEBB9 /* SettingView.swift */; };
+		2B81A46226701861002BD5F9 /* HomeScreen-2.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B81A45726701861002BD5F9 /* HomeScreen-2.png */; };
+		2B81A46326701861002BD5F9 /* RegisterErrorHandle.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B81A45826701861002BD5F9 /* RegisterErrorHandle.png */; };
+		2B81A46426701861002BD5F9 /* ForgettenPasswordEmail.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B81A45926701861002BD5F9 /* ForgettenPasswordEmail.png */; };
+		2B81A46526701861002BD5F9 /* ForgettenPassword.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B81A45A26701861002BD5F9 /* ForgettenPassword.png */; };
+		2B81A46626701861002BD5F9 /* RegisterScreen.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B81A45B26701861002BD5F9 /* RegisterScreen.png */; };
+		2B81A46726701861002BD5F9 /* AnalyzePage.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B81A45C26701861002BD5F9 /* AnalyzePage.png */; };
+		2B81A46826701861002BD5F9 /* SystemRequirements.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2B81A45D26701861002BD5F9 /* SystemRequirements.jpg */; };
+		2B81A46926701861002BD5F9 /* HabitDetail.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B81A45E26701861002BD5F9 /* HabitDetail.png */; };
+		2B81A46A26701861002BD5F9 /* OnboardingPages.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B81A45F26701861002BD5F9 /* OnboardingPages.png */; };
+		2B81A46B26701861002BD5F9 /* AddHabits.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B81A46026701861002BD5F9 /* AddHabits.png */; };
+		2B81A46C26701861002BD5F9 /* HomeScreen.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B81A46126701861002BD5F9 /* HomeScreen.png */; };
 		2B9379DA25EF2B8E00F5E955 /* Presets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B9379D925EF2B8E00F5E955 /* Presets.swift */; };
 		2BBDB38325DC4FC700552385 /* Habit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BBDB38225DC4FC700552385 /* Habit.swift */; };
 		2BBDB38625DC50B000552385 /* HabitListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BBDB38525DC50B000552385 /* HabitListView.swift */; };
@@ -114,6 +125,17 @@
 		2B73AFB925FFA287008FEBB9 /* ViewRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewRouter.swift; sourceTree = "<group>"; };
 		2B73AFC125FFA2AF008FEBB9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		2B73AFC625FFA6CE008FEBB9 /* SettingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingView.swift; sourceTree = "<group>"; };
+		2B81A45726701861002BD5F9 /* HomeScreen-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "HomeScreen-2.png"; sourceTree = "<group>"; };
+		2B81A45826701861002BD5F9 /* RegisterErrorHandle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = RegisterErrorHandle.png; sourceTree = "<group>"; };
+		2B81A45926701861002BD5F9 /* ForgettenPasswordEmail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ForgettenPasswordEmail.png; sourceTree = "<group>"; };
+		2B81A45A26701861002BD5F9 /* ForgettenPassword.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ForgettenPassword.png; sourceTree = "<group>"; };
+		2B81A45B26701861002BD5F9 /* RegisterScreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = RegisterScreen.png; sourceTree = "<group>"; };
+		2B81A45C26701861002BD5F9 /* AnalyzePage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AnalyzePage.png; sourceTree = "<group>"; };
+		2B81A45D26701861002BD5F9 /* SystemRequirements.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = SystemRequirements.jpg; sourceTree = "<group>"; };
+		2B81A45E26701861002BD5F9 /* HabitDetail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = HabitDetail.png; sourceTree = "<group>"; };
+		2B81A45F26701861002BD5F9 /* OnboardingPages.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = OnboardingPages.png; sourceTree = "<group>"; };
+		2B81A46026701861002BD5F9 /* AddHabits.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AddHabits.png; sourceTree = "<group>"; };
+		2B81A46126701861002BD5F9 /* HomeScreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = HomeScreen.png; sourceTree = "<group>"; };
 		2B9379D925EF2B8E00F5E955 /* Presets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Presets.swift; sourceTree = "<group>"; };
 		2BBDB38225DC4FC700552385 /* Habit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Habit.swift; sourceTree = "<group>"; };
 		2BBDB38525DC50B000552385 /* HabitListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitListView.swift; sourceTree = "<group>"; };
@@ -264,6 +286,7 @@
 			isa = PBXGroup;
 			children = (
 				2B736EF825DD67A5005CF617 /* GoogleService-Info.plist */,
+				2B81A45626701861002BD5F9 /* Screenshots */,
 				2B48802325D225DD00F09F5A /* AtomicHabit */,
 				2B43F19C25EA89B8009872B2 /* AtomicHabitTests */,
 				2B48802225D225DD00F09F5A /* Products */,
@@ -332,6 +355,24 @@
 				2B73AFC625FFA6CE008FEBB9 /* SettingView.swift */,
 			);
 			path = SettingView;
+			sourceTree = "<group>";
+		};
+		2B81A45626701861002BD5F9 /* Screenshots */ = {
+			isa = PBXGroup;
+			children = (
+				2B81A45726701861002BD5F9 /* HomeScreen-2.png */,
+				2B81A45826701861002BD5F9 /* RegisterErrorHandle.png */,
+				2B81A45926701861002BD5F9 /* ForgettenPasswordEmail.png */,
+				2B81A45A26701861002BD5F9 /* ForgettenPassword.png */,
+				2B81A45B26701861002BD5F9 /* RegisterScreen.png */,
+				2B81A45C26701861002BD5F9 /* AnalyzePage.png */,
+				2B81A45D26701861002BD5F9 /* SystemRequirements.jpg */,
+				2B81A45E26701861002BD5F9 /* HabitDetail.png */,
+				2B81A45F26701861002BD5F9 /* OnboardingPages.png */,
+				2B81A46026701861002BD5F9 /* AddHabits.png */,
+				2B81A46126701861002BD5F9 /* HomeScreen.png */,
+			);
+			path = Screenshots;
 			sourceTree = "<group>";
 		};
 		2B84C68D25D257F000A6D1C9 /* ViewModels */ = {
@@ -579,9 +620,20 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2B81A46426701861002BD5F9 /* ForgettenPasswordEmail.png in Resources */,
 				2B48802C25D225DD00F09F5A /* Preview Assets.xcassets in Resources */,
+				2B81A46B26701861002BD5F9 /* AddHabits.png in Resources */,
+				2B81A46826701861002BD5F9 /* SystemRequirements.jpg in Resources */,
+				2B81A46626701861002BD5F9 /* RegisterScreen.png in Resources */,
+				2B81A46926701861002BD5F9 /* HabitDetail.png in Resources */,
+				2B81A46A26701861002BD5F9 /* OnboardingPages.png in Resources */,
 				2B48802925D225DD00F09F5A /* Assets.xcassets in Resources */,
+				2B81A46726701861002BD5F9 /* AnalyzePage.png in Resources */,
 				2B736EF925DD67A5005CF617 /* GoogleService-Info.plist in Resources */,
+				2B81A46326701861002BD5F9 /* RegisterErrorHandle.png in Resources */,
+				2B81A46526701861002BD5F9 /* ForgettenPassword.png in Resources */,
+				2B81A46C26701861002BD5F9 /* HomeScreen.png in Resources */,
+				2B81A46226701861002BD5F9 /* HomeScreen-2.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
