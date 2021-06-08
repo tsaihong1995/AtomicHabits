@@ -85,8 +85,6 @@ Clone the project and run in your local workstation.
 2. Sandeep Vithal Rao Adode
 3. Priyanka Venkata Naga Sai Siriki
 
-## AppStore Link
-[Quoter](https://apps.apple.com/jm/app/quoter/id1566934513)
 
 ## Contact
 Created by [@Hung-Chun, Tsai (Carter)](linkedin.com/in/hung-chun-carter-tsai-372584175) - feel free to contact me!
