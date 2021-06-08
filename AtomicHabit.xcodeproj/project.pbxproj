@@ -3,15 +3,26 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 51;
+	objectVersion = 54;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		116EBF1B5503C15644F40A90 /* Pods_AtomicHabit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C746AEAC5A2D01B6DBD23F6F /* Pods_AtomicHabit.framework */; };
 		2B13DF5525DCF52900987CD9 /* SignInWithAppleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B13DF5425DCF52900987CD9 /* SignInWithAppleView.swift */; };
+		2B2D6E992625DFBB0002123E /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B2D6E982625DFBB0002123E /* Network.swift */; };
+		2B341BB026191AC50022F062 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B341BAF26191AC50022F062 /* ProfileView.swift */; };
+		2B341BB8261948CB0022F062 /* Notification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B341BB7261948CB0022F062 /* Notification.swift */; };
+		2B341BBE261949180022F062 /* ProfileViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B341BBD261949180022F062 /* ProfileViewModel.swift */; };
+		2B341BC6261A5B6E0022F062 /* HabitListViewTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B341BC5261A5B6E0022F062 /* HabitListViewTest.swift */; };
+		2B341BCC261A9DDA0022F062 /* Onboarding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B341BCB261A9DDA0022F062 /* Onboarding.swift */; };
+		2B3732EC25F83D2A00455C26 /* PresetHabitItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B3732EB25F83D2A00455C26 /* PresetHabitItem.swift */; };
+		2B43F19E25EA89B8009872B2 /* AtomicHabitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B43F19D25EA89B8009872B2 /* AtomicHabitTests.swift */; };
 		2B48802525D225DD00F09F5A /* AtomicHabitApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B48802425D225DD00F09F5A /* AtomicHabitApp.swift */; };
 		2B48802925D225DD00F09F5A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B48802825D225DD00F09F5A /* Assets.xcassets */; };
 		2B48802C25D225DD00F09F5A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B48802B25D225DD00F09F5A /* Preview Assets.xcassets */; };
+		2B49584E2606A25500A70F98 /* MainTabScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B49584D2606A25500A70F98 /* MainTabScene.swift */; };
+		2B68D9F9260240DD00633444 /* CommentTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B68D9F8260240DD00633444 /* CommentTextField.swift */; };
+		2B68D9FF26024A9700633444 /* CommunityHabitListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B68D9FE26024A9700633444 /* CommunityHabitListViewModel.swift */; };
+		2B68DA0726024B4400633444 /* CommunityHabitsRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B68DA0626024B4400633444 /* CommunityHabitsRepository.swift */; };
 		2B736EF925DD67A5005CF617 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2B736EF825DD67A5005CF617 /* GoogleService-Info.plist */; };
 		2B736F0225DD8693005CF617 /* FBKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B736EFE25DD8693005CF617 /* FBKeys.swift */; };
 		2B736F0325DD8693005CF617 /* FBFireStoreError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B736EFF25DD8693005CF617 /* FBFireStoreError.swift */; };
@@ -19,6 +30,10 @@
 		2B736F0525DD8693005CF617 /* FBUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B736F0125DD8693005CF617 /* FBUser.swift */; };
 		2B736F0925DD86E8005CF617 /* FBAuthError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B736F0725DD86E8005CF617 /* FBAuthError.swift */; };
 		2B736F0A25DD86E8005CF617 /* FBAuth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B736F0825DD86E8005CF617 /* FBAuth.swift */; };
+		2B73AFBA25FFA287008FEBB9 /* ViewRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B73AFB925FFA287008FEBB9 /* ViewRouter.swift */; };
+		2B73AFC225FFA2AF008FEBB9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B73AFC125FFA2AF008FEBB9 /* ContentView.swift */; };
+		2B73AFC725FFA6CE008FEBB9 /* SettingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B73AFC625FFA6CE008FEBB9 /* SettingView.swift */; };
+		2B9379DA25EF2B8E00F5E955 /* Presets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B9379D925EF2B8E00F5E955 /* Presets.swift */; };
 		2BBDB38325DC4FC700552385 /* Habit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BBDB38225DC4FC700552385 /* Habit.swift */; };
 		2BBDB38625DC50B000552385 /* HabitListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BBDB38525DC50B000552385 /* HabitListView.swift */; };
 		2BBDB38925DC539F00552385 /* HabitCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BBDB38825DC539F00552385 /* HabitCellViewModel.swift */; };
@@ -32,17 +47,62 @@
 		2BBDB3B825DCDCBB00552385 /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BBDB3B725DCDCBB00552385 /* SignUpView.swift */; };
 		2BBDB3BC25DCDCE100552385 /* ForgetPasswordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BBDB3BB25DCDCE100552385 /* ForgetPasswordView.swift */; };
 		2BBDB3C125DCDDC200552385 /* UserInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BBDB3C025DCDDC200552385 /* UserInfo.swift */; };
-		2BBDB3C425DCE52200552385 /* Content.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BBDB3C325DCE52200552385 /* Content.swift */; };
+		2BBDB3C425DCE52200552385 /* HomePageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BBDB3C325DCE52200552385 /* HomePageView.swift */; };
 		2BBDB3C725DCE67400552385 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BBDB3C625DCE67400552385 /* HomeView.swift */; };
+		2BC17F0626017CC900686E0A /* Comment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BC17F0526017CC900686E0A /* Comment.swift */; };
+		2BC17F112601A02D00686E0A /* PresetSchedule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BC17F102601A02D00686E0A /* PresetSchedule.swift */; };
+		2BC17F162601A0C300686E0A /* PresetsHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BC17F152601A0C300686E0A /* PresetsHome.swift */; };
+		2BC17F1C2601A60B00686E0A /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BC17F1B2601A60B00686E0A /* Constant.swift */; };
+		2BC17F2D2601A69500686E0A /* CategoryGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BC17F2C2601A69500686E0A /* CategoryGrid.swift */; };
+		2BC17F352601B4AA00686E0A /* TitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BC17F342601B4AA00686E0A /* TitleView.swift */; };
+		2BC17F3A2601B58000686E0A /* CommunityHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BC17F392601B58000686E0A /* CommunityHome.swift */; };
+		2BD15ABA25F2841B00FC87FE /* PresetCategoryRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BD15AB925F2841B00FC87FE /* PresetCategoryRow.swift */; };
+		2BD15ABE25F3DB2000FC87FE /* HabitPresetsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BD15ABD25F3DB2000FC87FE /* HabitPresetsViewModel.swift */; };
+		2BFC40BB260D5782004F5C27 /* HabitDetailEditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BFC40BA260D5782004F5C27 /* HabitDetailEditView.swift */; };
+		2BFC40C12610C87E004F5C27 /* TopBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BFC40C02610C87C004F5C27 /* TopBarView.swift */; };
+		2BFC40C72610CCC5004F5C27 /* Analyze.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BFC40C62610CCC5004F5C27 /* Analyze.swift */; };
+		6F2BF71A058E6B75FFF8977A /* Pods_AtomicHabit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52349D5D9A513FC7A209EBE4 /* Pods_AtomicHabit.framework */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2B29756125FA8BBE00217A26 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2B48801925D225DD00F09F5A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2B48802025D225DD00F09F5A;
+			remoteInfo = AtomicHabit;
+		};
+		2B43F1A025EA89B8009872B2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2B48801925D225DD00F09F5A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2B48802025D225DD00F09F5A;
+			remoteInfo = AtomicHabit;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		2B13DF5425DCF52900987CD9 /* SignInWithAppleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInWithAppleView.swift; sourceTree = "<group>"; };
+		2B29755C25FA8BBD00217A26 /* AtomicHabitTest.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AtomicHabitTest.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B2D6E982625DFBB0002123E /* Network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
+		2B341BAF26191AC50022F062 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		2B341BB7261948CB0022F062 /* Notification.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Notification.swift; sourceTree = "<group>"; };
+		2B341BBD261949180022F062 /* ProfileViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewModel.swift; sourceTree = "<group>"; };
+		2B341BC5261A5B6E0022F062 /* HabitListViewTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitListViewTest.swift; sourceTree = "<group>"; };
+		2B341BCB261A9DDA0022F062 /* Onboarding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Onboarding.swift; sourceTree = "<group>"; };
+		2B3732EB25F83D2A00455C26 /* PresetHabitItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresetHabitItem.swift; sourceTree = "<group>"; };
+		2B43F19B25EA89B8009872B2 /* AtomicHabitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AtomicHabitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B43F19D25EA89B8009872B2 /* AtomicHabitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AtomicHabitTests.swift; sourceTree = "<group>"; };
+		2B43F19F25EA89B8009872B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2B48802125D225DD00F09F5A /* AtomicHabit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AtomicHabit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B48802425D225DD00F09F5A /* AtomicHabitApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AtomicHabitApp.swift; sourceTree = "<group>"; };
 		2B48802825D225DD00F09F5A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2B48802B25D225DD00F09F5A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		2B48802D25D225DD00F09F5A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2B49584D2606A25500A70F98 /* MainTabScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabScene.swift; sourceTree = "<group>"; };
+		2B68D9F8260240DD00633444 /* CommentTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentTextField.swift; sourceTree = "<group>"; };
+		2B68D9FE26024A9700633444 /* CommunityHabitListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommunityHabitListViewModel.swift; sourceTree = "<group>"; };
+		2B68DA0626024B4400633444 /* CommunityHabitsRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommunityHabitsRepository.swift; sourceTree = "<group>"; };
 		2B736EF525DCFD45005CF617 /* AtomicHabit.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = AtomicHabit.entitlements; sourceTree = "<group>"; };
 		2B736EF825DD67A5005CF617 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		2B736EFE25DD8693005CF617 /* FBKeys.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FBKeys.swift; sourceTree = "<group>"; };
@@ -51,6 +111,10 @@
 		2B736F0125DD8693005CF617 /* FBUser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FBUser.swift; sourceTree = "<group>"; };
 		2B736F0725DD86E8005CF617 /* FBAuthError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FBAuthError.swift; sourceTree = "<group>"; };
 		2B736F0825DD86E8005CF617 /* FBAuth.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FBAuth.swift; sourceTree = "<group>"; };
+		2B73AFB925FFA287008FEBB9 /* ViewRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewRouter.swift; sourceTree = "<group>"; };
+		2B73AFC125FFA2AF008FEBB9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		2B73AFC625FFA6CE008FEBB9 /* SettingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingView.swift; sourceTree = "<group>"; };
+		2B9379D925EF2B8E00F5E955 /* Presets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Presets.swift; sourceTree = "<group>"; };
 		2BBDB38225DC4FC700552385 /* Habit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Habit.swift; sourceTree = "<group>"; };
 		2BBDB38525DC50B000552385 /* HabitListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitListView.swift; sourceTree = "<group>"; };
 		2BBDB38825DC539F00552385 /* HabitCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitCellViewModel.swift; sourceTree = "<group>"; };
@@ -64,33 +128,147 @@
 		2BBDB3B725DCDCBB00552385 /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
 		2BBDB3BB25DCDCE100552385 /* ForgetPasswordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgetPasswordView.swift; sourceTree = "<group>"; };
 		2BBDB3C025DCDDC200552385 /* UserInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfo.swift; sourceTree = "<group>"; };
-		2BBDB3C325DCE52200552385 /* Content.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Content.swift; sourceTree = "<group>"; };
+		2BBDB3C325DCE52200552385 /* HomePageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageView.swift; sourceTree = "<group>"; };
 		2BBDB3C625DCE67400552385 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
-		55C67902E9EE679024C556BC /* Pods-AtomicHabit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AtomicHabit.debug.xcconfig"; path = "Target Support Files/Pods-AtomicHabit/Pods-AtomicHabit.debug.xcconfig"; sourceTree = "<group>"; };
-		C746AEAC5A2D01B6DBD23F6F /* Pods_AtomicHabit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AtomicHabit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D12F5EDF9D05EF2EE43C58C8 /* Pods-AtomicHabit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AtomicHabit.release.xcconfig"; path = "Target Support Files/Pods-AtomicHabit/Pods-AtomicHabit.release.xcconfig"; sourceTree = "<group>"; };
+		2BC17F0526017CC900686E0A /* Comment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Comment.swift; sourceTree = "<group>"; };
+		2BC17F102601A02D00686E0A /* PresetSchedule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresetSchedule.swift; sourceTree = "<group>"; };
+		2BC17F152601A0C300686E0A /* PresetsHome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresetsHome.swift; sourceTree = "<group>"; };
+		2BC17F1B2601A60B00686E0A /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		2BC17F2C2601A69500686E0A /* CategoryGrid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryGrid.swift; sourceTree = "<group>"; };
+		2BC17F342601B4AA00686E0A /* TitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleView.swift; sourceTree = "<group>"; };
+		2BC17F392601B58000686E0A /* CommunityHome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommunityHome.swift; sourceTree = "<group>"; };
+		2BD15AB925F2841B00FC87FE /* PresetCategoryRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresetCategoryRow.swift; sourceTree = "<group>"; };
+		2BD15ABD25F3DB2000FC87FE /* HabitPresetsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitPresetsViewModel.swift; sourceTree = "<group>"; };
+		2BFC40BA260D5782004F5C27 /* HabitDetailEditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitDetailEditView.swift; sourceTree = "<group>"; };
+		2BFC40C02610C87C004F5C27 /* TopBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopBarView.swift; sourceTree = "<group>"; };
+		2BFC40C62610CCC5004F5C27 /* Analyze.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Analyze.swift; sourceTree = "<group>"; };
+		31F60ACB32C963C36EFDBB96 /* Pods-AtomicHabit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AtomicHabit.debug.xcconfig"; path = "Target Support Files/Pods-AtomicHabit/Pods-AtomicHabit.debug.xcconfig"; sourceTree = "<group>"; };
+		52349D5D9A513FC7A209EBE4 /* Pods_AtomicHabit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AtomicHabit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		818CDED83FD7D9012D3AB465 /* Pods-AtomicHabit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AtomicHabit.release.xcconfig"; path = "Target Support Files/Pods-AtomicHabit/Pods-AtomicHabit.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		2B29755925FA8BBD00217A26 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B43F19825EA89B8009872B2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		2B48801E25D225DD00F09F5A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				116EBF1B5503C15644F40A90 /* Pods_AtomicHabit.framework in Frameworks */,
+				6F2BF71A058E6B75FFF8977A /* Pods_AtomicHabit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2B0AE21725DEDA330025B41C /* SignInSignUp */ = {
+			isa = PBXGroup;
+			children = (
+				2BBDB3B025DCDBFD00552385 /* SignInWithEmailView.swift */,
+				2BBDB3BB25DCDCE100552385 /* ForgetPasswordView.swift */,
+				2BBDB3AD25DCDB6C00552385 /* LoginView.swift */,
+				2BBDB3C625DCE67400552385 /* HomeView.swift */,
+				2BBDB3B725DCDCBB00552385 /* SignUpView.swift */,
+				2BBDB3C325DCE52200552385 /* HomePageView.swift */,
+				2B13DF5425DCF52900987CD9 /* SignInWithAppleView.swift */,
+			);
+			path = SignInSignUp;
+			sourceTree = "<group>";
+		};
+		2B0AE21825DEDA4A0025B41C /* HabitHomePage */ = {
+			isa = PBXGroup;
+			children = (
+				2BBDB38E25DC63AA00552385 /* HabitScheduleView.swift */,
+				2BBDB38525DC50B000552385 /* HabitListView.swift */,
+				2B341BC5261A5B6E0022F062 /* HabitListViewTest.swift */,
+				2BBDB39525DC9B2D00552385 /* HabitDetailView.swift */,
+				2BFC40BA260D5782004F5C27 /* HabitDetailEditView.swift */,
+			);
+			path = HabitHomePage;
+			sourceTree = "<group>";
+		};
+		2B0AE21A25DEDAB30025B41C /* HabitHomePage */ = {
+			isa = PBXGroup;
+			children = (
+				2BBDB38825DC539F00552385 /* HabitCellViewModel.swift */,
+				2BBDB38B25DC54E600552385 /* HabitListViewModel.swift */,
+				2BD15ABD25F3DB2000FC87FE /* HabitPresetsViewModel.swift */,
+			);
+			path = HabitHomePage;
+			sourceTree = "<group>";
+		};
+		2B0AE21B25DEDAD10025B41C /* Habit */ = {
+			isa = PBXGroup;
+			children = (
+				2BBDB39225DC734600552385 /* HabitRepository.swift */,
+				2B68DA0626024B4400633444 /* CommunityHabitsRepository.swift */,
+			);
+			path = Habit;
+			sourceTree = "<group>";
+		};
+		2B0AE21D25DF0F400025B41C /* FirebaseAuthHelper */ = {
+			isa = PBXGroup;
+			children = (
+				2BBDB3A425DCDAD300552385 /* Firestore */,
+				2BBDB3A525DCDADF00552385 /* Auth */,
+			);
+			path = FirebaseAuthHelper;
+			sourceTree = "<group>";
+		};
+		2B341BAE26191AA80022F062 /* ProfileView */ = {
+			isa = PBXGroup;
+			children = (
+				2B341BAF26191AC50022F062 /* ProfileView.swift */,
+			);
+			path = ProfileView;
+			sourceTree = "<group>";
+		};
+		2B341BBC261949030022F062 /* ProfileViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				2B341BBD261949180022F062 /* ProfileViewModel.swift */,
+			);
+			path = ProfileViewModel;
+			sourceTree = "<group>";
+		};
+		2B341BCA261A9DCF0022F062 /* OnboardingView */ = {
+			isa = PBXGroup;
+			children = (
+				2B341BCB261A9DDA0022F062 /* Onboarding.swift */,
+			);
+			path = OnboardingView;
+			sourceTree = "<group>";
+		};
+		2B43F19C25EA89B8009872B2 /* AtomicHabitTests */ = {
+			isa = PBXGroup;
+			children = (
+				2B43F19D25EA89B8009872B2 /* AtomicHabitTests.swift */,
+				2B43F19F25EA89B8009872B2 /* Info.plist */,
+			);
+			path = AtomicHabitTests;
+			sourceTree = "<group>";
+		};
 		2B48801825D225DD00F09F5A = {
 			isa = PBXGroup;
 			children = (
 				2B736EF825DD67A5005CF617 /* GoogleService-Info.plist */,
 				2B48802325D225DD00F09F5A /* AtomicHabit */,
+				2B43F19C25EA89B8009872B2 /* AtomicHabitTests */,
 				2B48802225D225DD00F09F5A /* Products */,
 				ADF63A004F58D3AF2195C783 /* Pods */,
-				BAB8A3A9F48316B4C3C0CDE0 /* Frameworks */,
+				C476FDEE5F78443ED08111FA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -98,6 +276,8 @@
 			isa = PBXGroup;
 			children = (
 				2B48802125D225DD00F09F5A /* AtomicHabit.app */,
+				2B43F19B25EA89B8009872B2 /* AtomicHabitTests.xctest */,
+				2B29755C25FA8BBD00217A26 /* AtomicHabitTest.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -106,15 +286,14 @@
 			isa = PBXGroup;
 			children = (
 				2B736EF525DCFD45005CF617 /* AtomicHabit.entitlements */,
-				2BBDB39925DCD95E00552385 /* SignInOrSignUp */,
+				2B0AE21D25DF0F400025B41C /* FirebaseAuthHelper */,
 				2BBDB39125DC733100552385 /* Repositories */,
-				2B84C69325D258E900A6D1C9 /* App */,
 				2B84C68E25D257F800A6D1C9 /* Models */,
 				2B84C68D25D257F000A6D1C9 /* ViewModels */,
-				2B84C68C25D257E000A6D1C9 /* Views */,
+				2BBDB3A325DCDACA00552385 /* Views */,
+				2B84C69325D258E900A6D1C9 /* App */,
 				2B48802825D225DD00F09F5A /* Assets.xcassets */,
 				2B48802D25D225DD00F09F5A /* Info.plist */,
-				2BBDB38E25DC63AA00552385 /* HabitScheduleView.swift */,
 				2B48802A25D225DD00F09F5A /* Preview Content */,
 			);
 			path = AtomicHabit;
@@ -128,20 +307,39 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		2B84C68C25D257E000A6D1C9 /* Views */ = {
+		2B68D9FD2602495300633444 /* Community */ = {
 			isa = PBXGroup;
 			children = (
-				2BBDB38525DC50B000552385 /* HabitListView.swift */,
-				2BBDB39525DC9B2D00552385 /* HabitDetailView.swift */,
+				2B68D9FE26024A9700633444 /* CommunityHabitListViewModel.swift */,
 			);
-			path = Views;
+			path = Community;
+			sourceTree = "<group>";
+		};
+		2B73AFB825FFA258008FEBB9 /* TabBarView */ = {
+			isa = PBXGroup;
+			children = (
+				2B73AFB925FFA287008FEBB9 /* ViewRouter.swift */,
+				2B73AFC125FFA2AF008FEBB9 /* ContentView.swift */,
+				2B49584D2606A25500A70F98 /* MainTabScene.swift */,
+				2BFC40C02610C87C004F5C27 /* TopBarView.swift */,
+			);
+			path = TabBarView;
+			sourceTree = "<group>";
+		};
+		2B73AFCE25FFC978008FEBB9 /* SettingView */ = {
+			isa = PBXGroup;
+			children = (
+				2B73AFC625FFA6CE008FEBB9 /* SettingView.swift */,
+			);
+			path = SettingView;
 			sourceTree = "<group>";
 		};
 		2B84C68D25D257F000A6D1C9 /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
-				2BBDB38825DC539F00552385 /* HabitCellViewModel.swift */,
-				2BBDB38B25DC54E600552385 /* HabitListViewModel.swift */,
+				2B341BBC261949030022F062 /* ProfileViewModel */,
+				2B68D9FD2602495300633444 /* Community */,
+				2B0AE21A25DEDAB30025B41C /* HabitHomePage */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -149,7 +347,11 @@
 		2B84C68E25D257F800A6D1C9 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				2B2D6E982625DFBB0002123E /* Network.swift */,
 				2BBDB38225DC4FC700552385 /* Habit.swift */,
+				2B9379D925EF2B8E00F5E955 /* Presets.swift */,
+				2BC17F0526017CC900686E0A /* Comment.swift */,
+				2B341BB7261948CB0022F062 /* Notification.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -157,42 +359,46 @@
 		2B84C69325D258E900A6D1C9 /* App */ = {
 			isa = PBXGroup;
 			children = (
+				2BC17F1B2601A60B00686E0A /* Constant.swift */,
 				2B48802425D225DD00F09F5A /* AtomicHabitApp.swift */,
 			);
 			path = App;
 			sourceTree = "<group>";
 		};
+		2B9379D825EF2B5B00F5E955 /* PresetsView */ = {
+			isa = PBXGroup;
+			children = (
+				2B3732EB25F83D2A00455C26 /* PresetHabitItem.swift */,
+				2BD15AB925F2841B00FC87FE /* PresetCategoryRow.swift */,
+				2BC17F152601A0C300686E0A /* PresetsHome.swift */,
+				2BC17F102601A02D00686E0A /* PresetSchedule.swift */,
+			);
+			path = PresetsView;
+			sourceTree = "<group>";
+		};
 		2BBDB39125DC733100552385 /* Repositories */ = {
 			isa = PBXGroup;
 			children = (
-				2BBDB39225DC734600552385 /* HabitRepository.swift */,
+				2B0AE21B25DEDAD10025B41C /* Habit */,
 			);
 			path = Repositories;
-			sourceTree = "<group>";
-		};
-		2BBDB39925DCD95E00552385 /* SignInOrSignUp */ = {
-			isa = PBXGroup;
-			children = (
-				2BBDB3C025DCDDC200552385 /* UserInfo.swift */,
-				2BBDB3A525DCDADF00552385 /* Auth */,
-				2BBDB3A425DCDAD300552385 /* Firestore */,
-				2BBDB3A325DCDACA00552385 /* Views */,
-			);
-			path = SignInOrSignUp;
 			sourceTree = "<group>";
 		};
 		2BBDB3A325DCDACA00552385 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				2BBDB3B025DCDBFD00552385 /* SignInWithEmailView.swift */,
-				2BBDB3BB25DCDCE100552385 /* ForgetPasswordView.swift */,
-				2BBDB3AD25DCDB6C00552385 /* LoginView.swift */,
-				2BBDB3C625DCE67400552385 /* HomeView.swift */,
-				2BBDB3B725DCDCBB00552385 /* SignUpView.swift */,
-				2BBDB3C325DCE52200552385 /* Content.swift */,
-				2B13DF5425DCF52900987CD9 /* SignInWithAppleView.swift */,
+				2B341BCA261A9DCF0022F062 /* OnboardingView */,
+				2B341BAE26191AA80022F062 /* ProfileView */,
+				2BFC40C52610CCA4004F5C27 /* AnalyzePageView */,
+				2BC17F202601A65600686E0A /* CommunityView */,
+				2B73AFCE25FFC978008FEBB9 /* SettingView */,
+				2B73AFB825FFA258008FEBB9 /* TabBarView */,
+				2B9379D825EF2B5B00F5E955 /* PresetsView */,
+				2B0AE21825DEDA4A0025B41C /* HabitHomePage */,
+				2B0AE21725DEDA330025B41C /* SignInSignUp */,
 			);
-			path = Views;
+			name = Views;
+			path = SignInOrSignUp/Views;
 			sourceTree = "<group>";
 		};
 		2BBDB3A425DCDAD300552385 /* Firestore */ = {
@@ -209,26 +415,46 @@
 		2BBDB3A525DCDADF00552385 /* Auth */ = {
 			isa = PBXGroup;
 			children = (
+				2BBDB3B325DCDC3D00552385 /* UserViewModel.swift */,
+				2BBDB3C025DCDDC200552385 /* UserInfo.swift */,
 				2B736F0825DD86E8005CF617 /* FBAuth.swift */,
 				2B736F0725DD86E8005CF617 /* FBAuthError.swift */,
-				2BBDB3B325DCDC3D00552385 /* UserViewModel.swift */,
 			);
 			path = Auth;
+			sourceTree = "<group>";
+		};
+		2BC17F202601A65600686E0A /* CommunityView */ = {
+			isa = PBXGroup;
+			children = (
+				2BC17F2C2601A69500686E0A /* CategoryGrid.swift */,
+				2BC17F342601B4AA00686E0A /* TitleView.swift */,
+				2BC17F392601B58000686E0A /* CommunityHome.swift */,
+				2B68D9F8260240DD00633444 /* CommentTextField.swift */,
+			);
+			path = CommunityView;
+			sourceTree = "<group>";
+		};
+		2BFC40C52610CCA4004F5C27 /* AnalyzePageView */ = {
+			isa = PBXGroup;
+			children = (
+				2BFC40C62610CCC5004F5C27 /* Analyze.swift */,
+			);
+			path = AnalyzePageView;
 			sourceTree = "<group>";
 		};
 		ADF63A004F58D3AF2195C783 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				55C67902E9EE679024C556BC /* Pods-AtomicHabit.debug.xcconfig */,
-				D12F5EDF9D05EF2EE43C58C8 /* Pods-AtomicHabit.release.xcconfig */,
+				31F60ACB32C963C36EFDBB96 /* Pods-AtomicHabit.debug.xcconfig */,
+				818CDED83FD7D9012D3AB465 /* Pods-AtomicHabit.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
 		};
-		BAB8A3A9F48316B4C3C0CDE0 /* Frameworks */ = {
+		C476FDEE5F78443ED08111FA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				C746AEAC5A2D01B6DBD23F6F /* Pods_AtomicHabit.framework */,
+				52349D5D9A513FC7A209EBE4 /* Pods_AtomicHabit.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -236,15 +462,51 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		2B29755B25FA8BBD00217A26 /* AtomicHabitTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B29756525FA8BBE00217A26 /* Build configuration list for PBXNativeTarget "AtomicHabitTest" */;
+			buildPhases = (
+				2B29755825FA8BBD00217A26 /* Sources */,
+				2B29755925FA8BBD00217A26 /* Frameworks */,
+				2B29755A25FA8BBD00217A26 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2B29756225FA8BBE00217A26 /* PBXTargetDependency */,
+			);
+			name = AtomicHabitTest;
+			productName = AtomicHabitTest;
+			productReference = 2B29755C25FA8BBD00217A26 /* AtomicHabitTest.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2B43F19A25EA89B8009872B2 /* AtomicHabitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B43F1A425EA89B8009872B2 /* Build configuration list for PBXNativeTarget "AtomicHabitTests" */;
+			buildPhases = (
+				2B43F19725EA89B8009872B2 /* Sources */,
+				2B43F19825EA89B8009872B2 /* Frameworks */,
+				2B43F19925EA89B8009872B2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2B43F1A125EA89B8009872B2 /* PBXTargetDependency */,
+			);
+			name = AtomicHabitTests;
+			productName = AtomicHabitTests;
+			productReference = 2B43F19B25EA89B8009872B2 /* AtomicHabitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		2B48802025D225DD00F09F5A /* AtomicHabit */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2B48803025D225DD00F09F5A /* Build configuration list for PBXNativeTarget "AtomicHabit" */;
 			buildPhases = (
-				A31425FCD010FC3DAD97AE63 /* [CP] Check Pods Manifest.lock */,
+				4B98DD60FCE4B260B9A35401 /* [CP] Check Pods Manifest.lock */,
 				2B48801D25D225DD00F09F5A /* Sources */,
 				2B48801E25D225DD00F09F5A /* Frameworks */,
 				2B48801F25D225DD00F09F5A /* Resources */,
-				24CFF8A5C2BC539DC1C92AA3 /* [CP] Embed Pods Frameworks */,
+				1DD651B66301B8EB5B5A900F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -261,17 +523,25 @@
 		2B48801925D225DD00F09F5A /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1220;
+				LastSwiftUpdateCheck = 1240;
 				LastUpgradeCheck = 1220;
 				ORGANIZATIONNAME = CodeMonk;
 				TargetAttributes = {
+					2B29755B25FA8BBD00217A26 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 2B48802025D225DD00F09F5A;
+					};
+					2B43F19A25EA89B8009872B2 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 2B48802025D225DD00F09F5A;
+					};
 					2B48802025D225DD00F09F5A = {
 						CreatedOnToolsVersion = 12.2;
 					};
 				};
 			};
 			buildConfigurationList = 2B48801C25D225DD00F09F5A /* Build configuration list for PBXProject "AtomicHabit" */;
-			compatibilityVersion = "Xcode 9.3";
+			compatibilityVersion = "Xcode 12.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -284,11 +554,27 @@
 			projectRoot = "";
 			targets = (
 				2B48802025D225DD00F09F5A /* AtomicHabit */,
+				2B43F19A25EA89B8009872B2 /* AtomicHabitTests */,
+				2B29755B25FA8BBD00217A26 /* AtomicHabitTest */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		2B29755A25FA8BBD00217A26 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B43F19925EA89B8009872B2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		2B48801F25D225DD00F09F5A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -302,7 +588,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		24CFF8A5C2BC539DC1C92AA3 /* [CP] Embed Pods Frameworks */ = {
+		1DD651B66301B8EB5B5A900F /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -319,7 +605,7 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AtomicHabit/Pods-AtomicHabit-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		A31425FCD010FC3DAD97AE63 /* [CP] Check Pods Manifest.lock */ = {
+		4B98DD60FCE4B260B9A35401 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -344,39 +630,182 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		2B29755825FA8BBD00217A26 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B43F19725EA89B8009872B2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B43F19E25EA89B8009872B2 /* AtomicHabitTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		2B48801D25D225DD00F09F5A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				2BBDB39625DC9B2D00552385 /* HabitDetailView.swift in Sources */,
+				2BC17F1C2601A60B00686E0A /* Constant.swift in Sources */,
+				2B68DA0726024B4400633444 /* CommunityHabitsRepository.swift in Sources */,
 				2BBDB3B425DCDC3D00552385 /* UserViewModel.swift in Sources */,
 				2B736F0925DD86E8005CF617 /* FBAuthError.swift in Sources */,
+				2B341BB8261948CB0022F062 /* Notification.swift in Sources */,
 				2BBDB3BC25DCDCE100552385 /* ForgetPasswordView.swift in Sources */,
 				2B736F0425DD8693005CF617 /* FBFireStore.swift in Sources */,
+				2BFC40BB260D5782004F5C27 /* HabitDetailEditView.swift in Sources */,
 				2BBDB38625DC50B000552385 /* HabitListView.swift in Sources */,
 				2B736F0A25DD86E8005CF617 /* FBAuth.swift in Sources */,
-				2BBDB3C425DCE52200552385 /* Content.swift in Sources */,
+				2B341BC6261A5B6E0022F062 /* HabitListViewTest.swift in Sources */,
+				2BC17F0626017CC900686E0A /* Comment.swift in Sources */,
+				2BBDB3C425DCE52200552385 /* HomePageView.swift in Sources */,
+				2BD15ABA25F2841B00FC87FE /* PresetCategoryRow.swift in Sources */,
+				2B49584E2606A25500A70F98 /* MainTabScene.swift in Sources */,
 				2BBDB38F25DC63AA00552385 /* HabitScheduleView.swift in Sources */,
 				2BBDB3B825DCDCBB00552385 /* SignUpView.swift in Sources */,
 				2BBDB3AE25DCDB6C00552385 /* LoginView.swift in Sources */,
 				2BBDB38325DC4FC700552385 /* Habit.swift in Sources */,
 				2BBDB38C25DC54E600552385 /* HabitListViewModel.swift in Sources */,
+				2B341BCC261A9DDA0022F062 /* Onboarding.swift in Sources */,
+				2BC17F112601A02D00686E0A /* PresetSchedule.swift in Sources */,
+				2BC17F2D2601A69500686E0A /* CategoryGrid.swift in Sources */,
 				2BBDB3B125DCDBFD00552385 /* SignInWithEmailView.swift in Sources */,
+				2B68D9F9260240DD00633444 /* CommentTextField.swift in Sources */,
+				2BC17F3A2601B58000686E0A /* CommunityHome.swift in Sources */,
+				2B73AFBA25FFA287008FEBB9 /* ViewRouter.swift in Sources */,
 				2B736F0525DD8693005CF617 /* FBUser.swift in Sources */,
 				2B48802525D225DD00F09F5A /* AtomicHabitApp.swift in Sources */,
 				2BBDB39325DC734600552385 /* HabitRepository.swift in Sources */,
+				2B341BBE261949180022F062 /* ProfileViewModel.swift in Sources */,
+				2BC17F352601B4AA00686E0A /* TitleView.swift in Sources */,
+				2B2D6E992625DFBB0002123E /* Network.swift in Sources */,
+				2BFC40C12610C87E004F5C27 /* TopBarView.swift in Sources */,
+				2BD15ABE25F3DB2000FC87FE /* HabitPresetsViewModel.swift in Sources */,
 				2B736F0325DD8693005CF617 /* FBFireStoreError.swift in Sources */,
+				2B73AFC725FFA6CE008FEBB9 /* SettingView.swift in Sources */,
+				2B3732EC25F83D2A00455C26 /* PresetHabitItem.swift in Sources */,
 				2BBDB3C725DCE67400552385 /* HomeView.swift in Sources */,
 				2BBDB3C125DCDDC200552385 /* UserInfo.swift in Sources */,
 				2B736F0225DD8693005CF617 /* FBKeys.swift in Sources */,
 				2BBDB38925DC539F00552385 /* HabitCellViewModel.swift in Sources */,
+				2B73AFC225FFA2AF008FEBB9 /* ContentView.swift in Sources */,
+				2B341BB026191AC50022F062 /* ProfileView.swift in Sources */,
+				2B9379DA25EF2B8E00F5E955 /* Presets.swift in Sources */,
+				2BFC40C72610CCC5004F5C27 /* Analyze.swift in Sources */,
+				2B68D9FF26024A9700633444 /* CommunityHabitListViewModel.swift in Sources */,
+				2BC17F162601A0C300686E0A /* PresetsHome.swift in Sources */,
 				2B13DF5525DCF52900987CD9 /* SignInWithAppleView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		2B29756225FA8BBE00217A26 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2B48802025D225DD00F09F5A /* AtomicHabit */;
+			targetProxy = 2B29756125FA8BBE00217A26 /* PBXContainerItemProxy */;
+		};
+		2B43F1A125EA89B8009872B2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2B48802025D225DD00F09F5A /* AtomicHabit */;
+			targetProxy = 2B43F1A025EA89B8009872B2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
+		2B29756325FA8BBE00217A26 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZLM67YMHBN;
+				HEADER_SEARCH_PATHS = " ${SRCROOT}/Pods/Firebase/CoreOnly/Sources";
+				INFOPLIST_FILE = AtomicHabitTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.HCtsai.AtomicHabitTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AtomicHabit.app/AtomicHabit";
+			};
+			name = Debug;
+		};
+		2B29756425FA8BBE00217A26 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZLM67YMHBN;
+				HEADER_SEARCH_PATHS = " ${SRCROOT}/Pods/Firebase/CoreOnly/Sources";
+				INFOPLIST_FILE = AtomicHabitTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.HCtsai.AtomicHabitTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AtomicHabit.app/AtomicHabit";
+			};
+			name = Release;
+		};
+		2B43F1A225EA89B8009872B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZLM67YMHBN;
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/Pods/**";
+				INFOPLIST_FILE = AtomicHabitTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.HCtsai.AtomicHabitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AtomicHabit.app/AtomicHabit";
+			};
+			name = Debug;
+		};
+		2B43F1A325EA89B8009872B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZLM67YMHBN;
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/Pods/**";
+				INFOPLIST_FILE = AtomicHabitTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.HCtsai.AtomicHabitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AtomicHabit.app/AtomicHabit";
+			};
+			name = Release;
+		};
 		2B48802E25D225DD00F09F5A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -428,7 +857,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -483,7 +912,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -495,7 +924,7 @@
 		};
 		2B48803125D225DD00F09F5A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 55C67902E9EE679024C556BC /* Pods-AtomicHabit.debug.xcconfig */;
+			baseConfigurationReference = 31F60ACB32C963C36EFDBB96 /* Pods-AtomicHabit.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -506,7 +935,7 @@
 				DEVELOPMENT_TEAM = 9S84Q43P56;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = AtomicHabit/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -521,7 +950,7 @@
 		};
 		2B48803225D225DD00F09F5A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D12F5EDF9D05EF2EE43C58C8 /* Pods-AtomicHabit.release.xcconfig */;
+			baseConfigurationReference = 818CDED83FD7D9012D3AB465 /* Pods-AtomicHabit.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -532,7 +961,7 @@
 				DEVELOPMENT_TEAM = 9S84Q43P56;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = AtomicHabit/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -548,6 +977,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		2B29756525FA8BBE00217A26 /* Build configuration list for PBXNativeTarget "AtomicHabitTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B29756325FA8BBE00217A26 /* Debug */,
+				2B29756425FA8BBE00217A26 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2B43F1A425EA89B8009872B2 /* Build configuration list for PBXNativeTarget "AtomicHabitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B43F1A225EA89B8009872B2 /* Debug */,
+				2B43F1A325EA89B8009872B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		2B48801C25D225DD00F09F5A /* Build configuration list for PBXProject "AtomicHabit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

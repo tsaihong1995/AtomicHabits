@@ -9,17 +9,11 @@
 import Foundation
 import FirebaseFirestoreSwift
 import FirebaseFirestore
-
-
-let mockData1 = [
-    Habit(title: "Sleep Early", goalCount: 5, currentCount: 0, achieve: false, description: "Sleep before 12:00 am everyday."),
-    Habit(title: "Eat health", goalCount: 30, currentCount: 2, achieve: false, description: "Skip the fast food"),
-    Habit(title: "Skip Social Media", goalCount: 5, currentCount: 2, achieve: false, description: "Before go to bed, do not use the social media")
-]
+import SwiftUI
 
 
 
-struct Habit: Identifiable,Codable {
+struct Habit: Identifiable,Codable, Hashable {
     @DocumentID var id: String?
     var title: String
     var goalCount: Int
@@ -27,23 +21,50 @@ struct Habit: Identifiable,Codable {
     var achieve: Bool
     var description: String
     var userId: String?
-
+    var unitDescription: String
+    var category: Category
+    var period: Peroid
+    var comments: [DocumentReference]? = nil
+    
     @ServerTimestamp var createdTime: Timestamp?
     
-    init(title: String, goalCount: Int, currentCount: Int, achieve: Bool, description: String) {
+    init(title: String, goalCount: Int, currentCount: Int, achieve: Bool, description: String, unitDescription: String = "time(s)") {
         self.title = title
         self.goalCount = goalCount
         self.currentCount = currentCount
         self.achieve = achieve
         self.description = description
+        self.category = Category.personalGrowth
+        self.period = Peroid.day
+        self.unitDescription = unitDescription
     }
     
     init() {
-        self.title = "Default Title"
+        self.title = ""
         self.goalCount = 1
         self.currentCount = 0
         self.achieve = false
-        self.description = "Default Description"
+        self.description = ""
+        self.category = Habit.Category.personalGrowth
+        self.period = Habit.Peroid.day
+        self.unitDescription = "time(s)"
+    }
+    
+    
+    enum Peroid: String, CaseIterable, Codable {
+        case day = "Day"
+        case week = "Week"
+        case month = "Month"
+    }
+    
+    enum Category: String, CaseIterable, Equatable, Codable {
+        case health = "Health"
+        case personalGrowth = "Personal Growth"
+        case productive = "Productive"
+        case dietImprove = "Diet Improve"
+        case exercise = "Exercise"
+        
+        var localizedName: LocalizedStringKey { LocalizedStringKey(rawValue) }
     }
     
     enum CodingKeys: String, CodingKey {
@@ -55,6 +76,10 @@ struct Habit: Identifiable,Codable {
         case description
         case createdTime
         case userId
+        case comments
+        case unitDescription
+        case category
+        case period
     }
 }
 

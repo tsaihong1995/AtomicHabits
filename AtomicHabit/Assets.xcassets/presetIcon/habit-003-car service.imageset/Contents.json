@@ -1,0 +1,15 @@
+{
+  "images" : [
+    {
+      "filename" : "003-car service.png",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  },
+  "properties" : {
+    "preserves-vector-representation" : true
+  }
+}
